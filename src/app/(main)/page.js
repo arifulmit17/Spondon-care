@@ -18,8 +18,9 @@ export default function Home() {
       <Banner></Banner>
       <Services />
       <UrgentHelp />
-      <Specialization></Specialization>
-      <section>
+      
+      <section className="max-w-7xl mx-auto">
+        <Specialization></Specialization>
         <Topdoctors></Topdoctors>
         <DoctorReviews />
         <Promotion></Promotion>
